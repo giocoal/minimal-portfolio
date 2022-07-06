@@ -1,2 +1,1 @@
-# minimal-portfolio
-Minimal portfolio for DS projects
+Check out the minimal portfolio at https://chriskhanhtran.github.io/minimal-portfolio
