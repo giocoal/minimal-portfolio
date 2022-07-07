@@ -38,13 +38,27 @@ We evaluated the possible presence of a relationship between the outcomes of men
 [![KNIME Hub Workflow](https://img.shields.io/badge/KNIME-Open%20on%20KNIME%20HUB-yellow?logo=Knime)](https://kni.me/w/c2_iSRBcc1v7b6pUn)
 
 <div style="text-align: justify">
-PROMs are patient-reported outcome measures following an operation or health treatment, often used to assess the quality of health care.
+One of the most critical processes in finance is the detection of fraudulent credit card transactions. It is possible to detect these frauds with different machine learning algorithms, but what is the most effective classifier to accomplish this task?
 <br>
-We evaluated the possible presence of a relationship between the outcomes of mental and physical health status assessments of a sample of patients, following surgery, and the weather conditions relative to the time of questionnaire completion.
+In the first part of the project, we compared different techniques to counter the presence of unbalanced classes within the dataset. Then we compared the performance of some of the most widely used classification algorithms in this area. To determine the best method, we did not limit ourselves to the usual metrics but also took into account the costs to the financial institution related to any errors the model may make, a key aspect in this area.
 </div>
 <br>
-<center><img src="images/compitino_primaviz - Copy - Copya.png"/></center>
+<center><img src="images/MLKNIME.png"/></center>
 <br>
 
+### Cluster analysis on results of computational chemistry simulations
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection)
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf)
+
+<div style="text-align: justify">
+Data analysis of the results of computational simulations of the water adsorption process on atmospheric particulate matter models.
+<br>
+My work involved the development of a script in Python (NumPy, pandas, scikit-learn), capable of performing an automated (frame-by-frame) data analysis of the configurations (atomic coordinates of water molecules) generated during each simulation, conducted at a specific H2O pressure value.
+</div>
+<br>
+<center><img src="images/ComputationalChemistry.jpg"/></center>
+<br>
 
 <center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
+
