@@ -43,7 +43,7 @@ One of the most critical processes in finance is the detection of fraudulent cre
 In the first part of the project, we compared different techniques to counter the presence of unbalanced classes within the dataset. Then we compared the performance of some of the most widely used classification algorithms in this area. To determine the best method, we did not limit ourselves to the usual metrics but also took into account the costs to the financial institution related to any errors the model may make, a key aspect in this area.
 </div>
 <br>
-<center><img src="images/MLKNIME.png"/></center>
+<center><img src="images/MLKnime.png"/></center>
 <br>
 
 ### Cluster analysis on results of computational chemistry simulations
@@ -60,5 +60,18 @@ My work involved the development of a script in Python (NumPy, pandas, scikit-le
 <center><img src="images/ComputationalChemistry.jpg"/></center>
 <br>
 
-<center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
+## Data Management
 
+### Competitive Pokémon Graph Database
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database)
+[![View on Neo4j](https://img.shields.io/badge/GitHub-View_on_Neo4J-lightgrey?logo=Neo4j)]()
+
+<div style="text-align: justify">
+The idea behind the project is to create a database containing information related to the competitive Pokémon videogame, with particular reference to the Video Game Championship Series 12 rules, the official format in effect for official tournaments and events during the period February - August 2022 and valid for the Pokémon World Championship in London in August 2022. The goal is to obtain a useful tool as a support for competitive play, both for novice and experienced players. The different Pokémon are placed in relation to the teammates, moves, tools, skills the basic statistics with which they are most frequently matched within teams in competitive matches. For this reason, the choice on the type of database to be implemented fell on a graph database, implemented through Neo4J. The choice of the graph database allowed us to take advantage of its characteristic of being schema less, which allows us to create nodes, to model the different entities, and arcs, to model the various relationships, without following a predefined schema. The database was populated through data obtained through API and Web Scraping, appropriately integrated and processed.
+</div>
+<br>
+<center><img src="images/PokemonCopertina.jpg"/></center>
+<br>
+
+<center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
