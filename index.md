@@ -14,8 +14,8 @@ We tried to answer these, and other, questions by analyzing data from ARPA Lomba
 <br>
 <center><img src="images/ARPAVIZ.gif"/></center>
 <br>
----
 
+---
 ### Infographic: PROM score and the possible relationship with weather conditions
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Matplotlib_DataViz_SF12_PROMs_Score_)
@@ -28,8 +28,8 @@ We evaluated the possible presence of a <b>relationship</b> between the <b>outco
 <br>
 <center><img src="images/compitino_primaviz - Copy - Copya.png"/></center>
 <br>
----
 
+---
 ## Machine Learning
 
 ### Credit card transactions fraud detection using KNIME
@@ -46,6 +46,7 @@ In the first part of the project, we compared different techniques to counter th
 <center><img src="images/MLKnime.png"/></center>
 <br>
 
+---
 ### Cluster analysis on results of computational chemistry simulations
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection)
@@ -60,6 +61,7 @@ My work involved the development of a script in Python (NumPy, pandas, scikit-le
 <center><img src="images/ComputationalChemistry.jpg"/></center>
 <br>
 
+---
 ## Data Management
 
 ### Data Acquisition and Modeling: Competitive Pokémon Graph Database
