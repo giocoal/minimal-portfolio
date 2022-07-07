@@ -26,8 +26,7 @@ PROMs are patient-reported outcome measures following an operation or health tre
 We evaluated the possible presence of a relationship between the outcomes of mental and physical health status assessments of a sample of patients, following surgery, and the weather conditions relative to the time of questionnaire completion.
 </div>
 <br>
-<center><img src="images/compitino_primaviz.png"/></center>
-<center><img src="images/compitino_secondaviz.png"/></center>
+<center><img src="images/compitino_primaviz - Copy - Copya.png"/></center>
 <br>
 ---
 
