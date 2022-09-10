@@ -6,7 +6,7 @@
 ### Video Classification: Human Action Recognition on HMDB-51 dataset
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/hmdb51-two-stream-action-recognition)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
 
 <div style="text-align: justify">We use spatial (ResNet-50 finetuned) and temporal stream cnn (stacked Optical Flows) under the Keras framework to perform Video-Based Human Action Recognition on HMDB-51 dataset.
 </div>
