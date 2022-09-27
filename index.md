@@ -103,16 +103,16 @@ The idea behind the project is to create a <b>graph database</b> containing info
 <div style="text-align: justify">
 Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
 The <b>goals</b> of our project were: 
-1. to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
-2. to use distibutional semantics, and in particular algorithms from the word2vec family along with the CADE frameword in order to learn <b>word embeddings</b> from the generated and processed corpora 
-3. and finally to <b>analyze</b> some particularly long-lived _tòpos_, chosen arbitrarily, to be able to answer some research questions
-The questions we asked ourselves were: 
-1. How do the longest-lived literary _tòpos_ change in different historical periods ? and thus Does the historical-cultural context influence the recurring themes ? 
-2. How do the canons proper to the different literary currents of Italian literature shape the representation of these common themes ?
-3. Given some _tòpos_ and concepts peculiar to some of the greatest authors of Italian literature what are the correspondences in the works of other great authors ?
+<b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
+<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family along with the CADE frameword in order to learn <b>word embeddings</b> from the generated and processed corpora 
+<b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived _tòpos_</b>, chosen arbitrarily, to be able to answer some research questions
+The <b>questions</b> we asked ourselves were: 
+<b>1.</b> How do the longest-lived literary _tòpos_ change in different <b>historical periods</b> ? and thus Does the historical-cultural context influence the recurring themes ? 
+<b>2.</b> How do the canons proper to the different <b>literary currents</b> of Italian literature shape the representation of these common themes ?
+<b>3.</b> Given some _tòpos_ and concepts peculiar to some of the <b>greatest authors</b> of Italian literature what are the correspondences in the works of other great authors ?
 </div>
 <br>
-<center><img src="images/PokemonCopertina1.png"/></center>
+<center><img src="images/DataSemanticsItalianLiterature.jpg"/></center>
 <br>
 
 <center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
