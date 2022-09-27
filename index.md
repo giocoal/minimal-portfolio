@@ -98,7 +98,7 @@ The idea behind the project is to create a <b>graph database</b> containing info
 ### Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/word-embedding-italian-literature)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
 
 <div style="text-align: justify">
 Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
