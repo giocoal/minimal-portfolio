@@ -23,14 +23,12 @@ description:
   <br><br>
   I consider myself a kind, empathetic, creative and determined person. I am pragmatic and organized, yet flexible.
   <br><br>
-  I am particularly drawn to digital signal and image processing and analysis, as well as the latest ML topics, such as Computer Vision, NLP and Generative Models.
-  <br><br>
   </p>
   
 theme: jekyll-theme-minimal
 google_analytics: UA-145578661-1 # Google Analytics tracking ID
 
-
+# I am particularly drawn to digital signal and image processing and analysis, as well as the latest ML topics, such as Computer Vision, NLP and Generative Models.
 #and in particular earning a bachelor's degree in Chemical Sciences and Technologies at University of Milano-Bicocca, which program included courses in mathematics, physics and chemistry (inorganic, organic, physical and analytical), 
 #Although I have an interest in the discipline of data science in its entirety,
 
