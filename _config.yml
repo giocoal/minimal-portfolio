@@ -19,16 +19,17 @@ description:
   <br><br>
   I am pursing Master's Degree in Data Science at University of Milano-Bicocca, where I’m receiving solid training in all the major fields of Data Science, like Statistics, Computer Science, Data Engineering, Machine Learning and more.
   <br><br>
-  My hard science education (bachelor's degree in Chemical Sciences and Technologies), 
-  #and in particular earning a bachelor's degree in Chemical Sciences and Technologies at University of Milano-Bicocca, which program included courses in mathematics, physics and chemistry (inorganic, organic, physical and analytical), 
-  has allowed me to develop strong analytical, mathematical and statistical skills, which have proven useful in my current career path.
+  My hard science education (bachelor's degree in Chemical Sciences and Technologies), has allowed me to develop strong analytical, mathematical and statistical skills, which have proven useful in my current career path.
   <br><br>
   I consider myself a kind, empathetic, creative and determined person. I am pragmatic and organized, yet flexible.
   <br><br>
-  #Although I have an interest in the discipline of data science in its entirety, 
   I am particularly drawn to digital signal and image processing and analysis, as well as the latest ML topics, such as Computer Vision, NLP and Generative Models.
   <br><br>
   </p>
   
 theme: jekyll-theme-minimal
+
+#and in particular earning a bachelor's degree in Chemical Sciences and Technologies at University of Milano-Bicocca, which program included courses in mathematics, physics and chemistry (inorganic, organic, physical and analytical), 
+#Although I have an interest in the discipline of data science in its entirety,
+
 #google_analytics: UA-145578661-1 # Google Analytics tracking ID
