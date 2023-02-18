@@ -66,8 +66,8 @@ My work involved the development of a script in Python (NumPy, pandas, scikit-le
 <br>
 <center><img src="images/ComputationalChemistry.jpg"/></center>
 <br>
----
 
+---
 ## Natural Language Processing
 
 ### Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition
