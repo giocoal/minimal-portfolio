@@ -26,7 +26,7 @@ We use spatial (<b>ResNet-50 finetuned</b>) and temporal stream cnn (stacked <b>
 <div style="text-align: justify">
 <b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
 <br> <br>
-The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to obtain a model for the conditional synthesis of chest radiographs of healthy patients, patients with COVID-19 and patients with non-COVID-19 pneumonia. Additionally, we used the trained GAN to perform data augmentation on the unbalanced COVIDx dataset, generatively balancing minority classes, and possibly improving the performance of some classifiers.
+The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to obtain a model for the <b>conditional synthesis</b> of chest radiographs of healthy patients, patients with COVID-19 and patients with non-COVID-19 pneumonia. Additionally, we used the trained GAN to perform <b>data augmentation on the unbalanced COVIDx dataset</b>, generatively balancing minority classes, and possibly improving the performance of some classifiers.
 </div>
 <br>
 <center><img src="images/CXR-ACGAN - Example.png"/></center>
@@ -82,36 +82,27 @@ The <b>goals</b> of our project were:
 <br>
 <b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
 <br>
-<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family along with the CADE frameword in order to learn <b>word embeddings</b> from the generated and processed corpora 
+<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family, along with the CADE framework, in order to learn <b>word embeddings</b> from the generated and processed corpora 
 <br>
 <b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived tòpos</b>, chosen arbitrarily, to be able to answer some research questions
-<br> <br>
-The <b>questions</b> we asked ourselves were: 
-<br>
-<b>1.</b> How do the longest-lived literary tòpos change in different <b>historical periods</b>? and thus Does the historical-cultural context influence the recurring themes? 
-<br>
-<b>2.</b> How do the canons proper to the different <b>literary currents</b> of Italian literature shape the representation of these common themes?
-<br>
-<b>3.</b> Given some tòpos and concepts peculiar to some of the <b>greatest authors</b> of Italian literature what are the correspondences in the works of other great authors?
 </div>
 <br>
 <center><img src="images/DataSemanticsItalianLiterature.jpg"/></center>
 <br>
 
 ---
-### Extreme Extractive Text Summarization and Topic Modeling (using LSA and LDA techniques) over Reddit Posts
+### Extreme Text Summarization and Topic Modeling over Reddit Posts
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/extreme-extractive-text-summarization-and-topic-modeling-using-lsa-and-lda-techniques-over-reddit-posts)
 
 <div style="text-align: justify">
-<b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
+Extreme Extractive <b>Text Summarization</b> and <b>Topic Modeling</b> (using <b>LSA and LDA</b> techniques) over Reddit Posts from <b>TLDRHQ dataset</b>.
 <br> <br>
-The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to obtain a model for the conditional synthesis of chest radiographs of healthy patients, patients with COVID-19 and patients with non-COVID-19 pneumonia. Additionally, we used the trained GAN to perform data augmentation on the unbalanced COVIDx dataset, generatively balancing minority classes, and possibly improving the performance of some classifiers.
+TL;DR, which is an acronym for ”Too Long; Didn’t Read” and is an extremely short summary of the post’s content that is good practice for Reddit users to leave at the end of a post. A system, such as a bot, capable to automatically generate the TL;DR of a post could improve Reddit usability. This project develops a supervised extractive summarization model to obtain TL;DR-like summaries, and uses LSA and LDA techniques for topic modeling analysis to identify hidden topics in posts
 </div>
 <br>
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/xMelWT6Xc8nRth?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-<center><img src="images/CXR-ACGAN - Example.png"/></center>
+<center><img src="images/tldr.png"/></center>
 <br>
 
 ---
@@ -170,7 +161,7 @@ We evaluated, through some <b>infographics</b> made through Python, using the <b
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database)
 [![View on Neo4j](https://img.shields.io/badge/Neo4J-View_on_Neo4J-lightgrey?logo=Neo4j)]()
 [![View on Kaggle](https://img.shields.io/badge/Kaggle-View_on_Kaggle-blue?logo=Kaggle)](https://www.kaggle.com/datasets/giorgiocarbone/complete-competitive-pokmon-datasets-may-2022)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database/blob/main/Project%20Report.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database/blob/main/Project%20Report.pdf)
 
 <div style="text-align: justify">
 Data Acquisition and Modeling: <b>Graph database</b> containing information related to <b>competitive Pokémon videogames</b>, <b>scraped</b> from various sources
