@@ -18,6 +18,21 @@ We use spatial (<b>ResNet-50 finetuned</b>) and temporal stream cnn (stacked <b>
 <br>
 
 ---
+### CXR-ACGAN: Auxiliary Classifier GAN for Chest X-Ray Images Generation
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/CXR-ACGAN-chest-xray-generator-covid19-pneumonia)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
+
+<div style="text-align: justify">
+<b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
+<br> <br>
+The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to obtain a model for the conditional synthesis of chest radiographs of healthy patients, patients with COVID-19 and patients with non-COVID-19 pneumonia. Additionally, we used the trained GAN to perform data augmentation on the unbalanced COVIDx dataset, generatively balancing minority classes, and possibly improving the performance of some classifiers.
+</div>
+<br>
+<center><img src="images/CXR-ACGAN - Example.png"/></center>
+<br>
+
+---
 ## Machine Learning
 
 ### Credit card transactions fraud detection using KNIME
@@ -50,6 +65,70 @@ My work involved the development of a script in Python (NumPy, pandas, scikit-le
 </div>
 <br>
 <center><img src="images/ComputationalChemistry.jpg"/></center>
+<br>
+---
+
+## Natural Language Processing
+
+### Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/word-embedding-italian-literature)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
+
+<div style="text-align: justify">
+Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
+<br> <br>
+The <b>goals</b> of our project were: 
+<br>
+<b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
+<br>
+<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family along with the CADE frameword in order to learn <b>word embeddings</b> from the generated and processed corpora 
+<br>
+<b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived tòpos</b>, chosen arbitrarily, to be able to answer some research questions
+<br> <br>
+The <b>questions</b> we asked ourselves were: 
+<br>
+<b>1.</b> How do the longest-lived literary tòpos change in different <b>historical periods</b>? and thus Does the historical-cultural context influence the recurring themes? 
+<br>
+<b>2.</b> How do the canons proper to the different <b>literary currents</b> of Italian literature shape the representation of these common themes?
+<br>
+<b>3.</b> Given some tòpos and concepts peculiar to some of the <b>greatest authors</b> of Italian literature what are the correspondences in the works of other great authors?
+</div>
+<br>
+<center><img src="images/DataSemanticsItalianLiterature.jpg"/></center>
+<br>
+
+---
+### Extreme Extractive Text Summarization and Topic Modeling (using LSA and LDA techniques) over Reddit Posts
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
+
+<div style="text-align: justify">
+<b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
+<br> <br>
+The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to obtain a model for the conditional synthesis of chest radiographs of healthy patients, patients with COVID-19 and patients with non-COVID-19 pneumonia. Additionally, we used the trained GAN to perform data augmentation on the unbalanced COVIDx dataset, generatively balancing minority classes, and possibly improving the performance of some classifiers.
+</div>
+<br>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/xMelWT6Xc8nRth?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<center><img src="images/CXR-ACGAN - Example.png"/></center>
+<br>
+
+---
+## Time Series
+
+### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis/blob/main/Project%20Report.pdf)
+
+<div style="text-align: justify">
+<b> Time Series </b> Analysis and <b> Forecasting </b> (using <b> ARIMA </b>, <b> UCM </b> and <b> Random Forest </b> models) of a <b> restaurant's revenue </b> during the first lockdown of the COVID-19 pandemic in Italy, to estimate the loss incurred..
+<br> <br>
+In this project we analyze the sales performance of six restaurants in Lombardy and Emilia-Romagna from 2018 to 2022. The study aims to identify patterns in the time series, estimate losses during the COVID-19 pandemic, and predict future restaurant trends, uses different models, including ARIMA & SARIMA, UCM, and Random Forest.
+</div>
+<br>
+<center><img src="images/data-lab.png"/></center>
 <br>
 
 ---
@@ -100,37 +179,6 @@ The idea behind the project is to create a <b>graph database</b> containing info
 </div>
 <br>
 <center><img src="images/PokemonCopertina1.png"/></center>
-<br>
-
----
-## Distributional Semantics
-
-### Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/word-embedding-italian-literature)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
-
-<div style="text-align: justify">
-Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
-<br> <br>
-The <b>goals</b> of our project were: 
-<br>
-<b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
-<br>
-<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family along with the CADE frameword in order to learn <b>word embeddings</b> from the generated and processed corpora 
-<br>
-<b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived tòpos</b>, chosen arbitrarily, to be able to answer some research questions
-<br> <br>
-The <b>questions</b> we asked ourselves were: 
-<br>
-<b>1.</b> How do the longest-lived literary tòpos change in different <b>historical periods</b>? and thus Does the historical-cultural context influence the recurring themes? 
-<br>
-<b>2.</b> How do the canons proper to the different <b>literary currents</b> of Italian literature shape the representation of these common themes?
-<br>
-<b>3.</b> Given some tòpos and concepts peculiar to some of the <b>greatest authors</b> of Italian literature what are the correspondences in the works of other great authors?
-</div>
-<br>
-<center><img src="images/DataSemanticsItalianLiterature.jpg"/></center>
 <br>
 
 <center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
