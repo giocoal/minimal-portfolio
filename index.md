@@ -50,7 +50,7 @@ This project focused on Alzheimer's Disease through three main objectives. First
 ---
 ## Machine Learning
 
-### Credit card transactions fraud detection using KNIME
+### Credit Card Transactions Fraud Detection using KNIME.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection)
 [![KNIME Hub Workflow](https://img.shields.io/badge/KNIME-View%20on%20KNIME%20HUB-yellow?logo=Knime)](https://kni.me/w/c2_iSRBcc1v7b6pUn)
@@ -68,13 +68,13 @@ In the first part of the project, we compared different techniques to counter th
 <br>
 
 ---
-### Cluster analysis on results of computational chemistry simulations
+### Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection)
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf)
 
 <div style="text-align: justify">
-Data analysis of the results of <b>computational simulations of the water adsorption process</b> on atmospheric particulate matter models.
+Data Analysis and Cluster Analysis of the results of <b>computational simulations of the water adsorption process</b> on atmospheric particulate matter models.
 <br>
 My work involved the development of a script in Python (NumPy, pandas, scikit-learn), capable of performing an automated (frame-by-frame) <b>data analysis of the configurations</b> (atomic coordinates of water molecules) generated during each simulation, conducted at a specific H2O pressure value.
 </div>
@@ -121,7 +121,7 @@ TL;DR, which is an acronym for ”Too Long; Didn’t Read” and is an extremely
 <br>
 
 ---
-## Time Series
+## Time Series and Streaming Data 
 
 ### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown
 
@@ -140,7 +140,7 @@ In this project we analyze the sales performance of six restaurants in Lombardy 
 ---
 ## Data Visualization
 
-### Air quality in the Milan agglomeration: Data Analysis & Visualization
+### Air Quality Evolution in the Milan agglomeration: Data Analysis & Interactive Visualization
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau)
 [![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://public.tableau.com/app/profile/giorgio.carbone3907/viz/IndicediQualitdellAriaIQAnellagglomeratodiMilanoanalisidellandamentostagionaleeannualeCarboneCavallaroMarconziniScuri/Dashboard_HOME)
