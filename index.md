@@ -176,7 +176,7 @@ We evaluated, through some <b>infographics</b> made through Python, using the <b
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database)
 [![View on Neo4j](https://img.shields.io/badge/Neo4J-View_on_Neo4J-lightgrey?logo=Neo4j)]()
 [![View on Kaggle](https://img.shields.io/badge/Kaggle-View_on_Kaggle-blue?logo=Kaggle)](https://www.kaggle.com/datasets/giorgiocarbone/complete-competitive-pokmon-datasets-may-2022)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database/blob/main/Project%20Report.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20%20Report%20%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database/blob/main/Project%20Report.pdf)
 
 <div style="text-align: justify">
 Data Acquisition and Modeling: <b>Graph database</b> containing information related to <b>competitive Pokémon videogames</b>, <b>scraped</b> from various sources
