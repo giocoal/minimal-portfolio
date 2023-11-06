@@ -68,18 +68,23 @@ In the first part of the project, we compared different techniques to counter th
 <br>
 
 ---
-### Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models
+### <ins>Bachelor's Thesis</ins>: *"Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models"* <br> and <ins>Published Paper</ins>: *"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations"*
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/tree/main)
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf)
+[![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.3390/inorganics11110421-6b3048?logo=google-scholar)](https://www.mdpi.com/2304-6740/11/11/421)
 
 <div style="text-align: justify">
-Data Analysis and Cluster Analysis of the results of <b>computational simulations of the water adsorption process</b> on atmospheric particulate matter models.
-<br>
-My work involved the development of a script in Python (NumPy, pandas, scikit-learn), capable of performing an automated (frame-by-frame) <b>data analysis of the configurations</b> (atomic coordinates of water molecules) generated during each simulation, conducted at a specific H2O pressure value.
+During a <b>research internship</b> at the <b>Computational Physical Chemistry Laboratory</b> at the <b>University of Milano-Bicocca</b> i took part in a research project concerning the study, by means of <b>Monte Carlo computational simulations</b> in the Grand Canonical ensemble, of the <b>adsorption</b> process of <b>water</b> on model <b>surfaces of sodium chloride</b> (NaCl) atmospheric particulate matter of marine origin. <br>
+My work involved performing a data analysis, and in particular a <b>cluster analysis</b> and <b>orientational analysis</b>, on the results of the 3-D molecular mechanics simulations, leveraging <b>unsupervised machine learning</b> (<b>DBSCAN</b>) for water <b>clusters detection</b>. <br>
+I developed a script in Python language (NumPy, pandas, scikit-learn), capable of performing an automated (frame-by-frame) <b>data analysis of the configurations</b> (atomic coordinates of water molecules) generated during each simulation, conducted at a specific H2O pressure value. <br>
+The results of the analysis provided a <b>molecular-level understanding</b> of the <b>aggregative phenomena</b> that characterise the adsorption process of water vapor on the NaCl surface. In particular, the script allows to: identify the number of clusters present in the system, classify them into 'islands' or 'layers' according to their shape and size, and study the orientation of water molecules moving away from the NaCl surface. <br>
+The results of my study are collected in my Bachelor's thesis: <a href="https://github.com/giocoal/cluster-analysis-on-computational-chemistry-simulations-water-adsorption-on-atmosperic-particulate/blob/main/thesis%20manuscript%20and%20presentation%20slides/Thesis.pdf">"Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models."</a> <br>
+Furthermore, during the course of the year 2023, I subsequently contributed, in the context of a voluntary collaboration with the corresponding authors' research groups, to the development of a paper entitled: <a href="https://www.mdpi.com/2304-6740/11/11/421">"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations."</a> (<a href="https://scholar.google.com/citations?user=yJfbN8AAAAAJ&hl=en&oi=sra">F. Rizza</a>, <a href="https://scholar.google.com/citations?user=F4g_VMYAAAAJ&hl=en&oi=sra">A. Rovaletti</a>, <a href="https://scholar.google.com/citations?user=C9pWqXAAAAAJ&hl=en&oi=sra">G. Carbone</a>, T. Miyake, <a href="url">C. Greco</a>, U. Cosentino), published on the international, peer-reviews and open access <a href="https://www.mdpi.com/journal/inorganics/about">Inorganics</a> journal by <a href="https://www.mdpi.com/">MDPI</a>. In particular, I was involved in the investigation, formal analysis and data curation phases. <br>
+
 </div>
 <br>
-<center><img src="images/ComputationalChemistry.jpg"/></center>
+<center><img src="images/ComputationalChemistry.png"/></center>
 <br>
 
 ---
