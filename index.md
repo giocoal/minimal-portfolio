@@ -6,7 +6,7 @@
 ### Video Classification: Human Action Recognition on HMDB-51 dataset
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/hmdb51-two-stream-action-recognition)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
 
 <div style="text-align: justify">
 <b>Two-stream CNNs</b> for video action recognition using Stacked Optical Flow, implemented in Keras, on HMDB-51 dataset.
@@ -21,7 +21,7 @@ We use spatial (<b>ResNet-50 finetuned</b>) and temporal stream cnn (stacked <b>
 ### CXR-ACGAN: Auxiliary Classifier GAN for Chest X-Ray Images Generation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/CXR-ACGAN-chest-xray-generator-covid19-pneumonia)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
 
 <div style="text-align: justify">
 <b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
@@ -36,7 +36,7 @@ The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to o
 ### Alzheimers's Disease / Healthy Brain MRI Images Classification and WGAN Generation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/ADNI-brain-MRI-alzheimer-WGAN-generation-and-classification)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/identification-of-alzheimers-disease-using-a-deep-learning-method-based-on-t1w-brain-mri-images)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/identification-of-alzheimers-disease-using-a-deep-learning-method-based-on-t1w-brain-mri-images)
 
 <div style="text-align: justify">
 <b>Brain</b> T1-Weighted <b>MRI</b> Images <b>Classification</b> and <b>WGAN Generation</b> (<b>Alzheimer's</b> and Healthy patients) for the purpose of data augmentation. Implemented in TensorFlow, trained on ADNI dataset.
@@ -93,7 +93,7 @@ Furthermore, during the course of the year 2023, I subsequently contributed, in 
 ### Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/word-embedding-italian-literature)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
 
 <div style="text-align: justify">
 Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
@@ -114,7 +114,7 @@ The <b>goals</b> of our project were:
 ### Extreme Text Summarization and Topic Modeling over Reddit Posts
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/extreme-extractive-text-summarization-and-topic-modeling-using-lsa-and-lda-techniques-over-reddit-posts)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/extreme-extractive-text-summarization-and-topic-modeling-using-lsa-and-lda-techniques-over-reddit-posts)
 
 <div style="text-align: justify">
 Extreme Extractive <b>Text Summarization</b> and <b>Topic Modeling</b> (using <b>LSA and LDA</b> techniques) over Reddit Posts from <b>TLDRHQ dataset</b>.
@@ -144,7 +144,7 @@ The <b>forecasting</b> of <b>time series</b> of <b>electricity consumption</b> p
 ### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis/blob/main/Project%20Report.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis/blob/main/Project%20Report.pdf)
 
 <div style="text-align: justify">
 <b> Time Series </b> Analysis and <b> Forecasting </b> (using <b> ARIMA </b>, <b> UCM </b> and <b> Random Forest </b> models) of a <b> restaurant's revenue </b> during the first lockdown of the COVID-19 pandemic in Italy, to estimate the loss incurred..
