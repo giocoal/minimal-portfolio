@@ -128,6 +128,19 @@ TL;DR, which is an acronym for ”Too Long; Didn’t Read” and is an extremely
 ---
 ## Time Series and Streaming Data 
 
+### Electricity Consumption Forecasting Using Arima, UCM, Machine Learning (Random Forest and k-NN), and Deep Learning (GRU Recurrent Neural Network) Models
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/analysis-and-forecasting-tetouan-city-power-consumption-ARIMA-UCM-GRU)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/analysis-and-forecasting-tetouan-city-power-consumption-ARIMA-UCM-GRU/blob/main/report/Project_Report.pdf)
+[![Open Slides](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/electricity-consumption-forecasting-using-arima-ucm-machine-learning-and-deep-learning-models)
+
+The <b>forecasting</b> of <b>time series</b> of <b>electricity consumption</b> plays an important role in efficient resource management and strategic planning in the energy sector. In this project, we analyse a <b>univariate, homogeneous, high-frequency time series</b> of electricity consumption measured every 10 minutes from 01/01/2017 to 30/11/2017, comparing <b>statistical (ARIMA and UCM)</b>, <b>Machine Learning (Random Forest and k-NN)</b> and <b>Deep Learning (GRU Recurrent Neural Network)</b> approaches to model the time series and forecast consumption for the month of December 2017. The best performing of the models in each family, trained on data sampled between 01/01/2017 to 31/10/2017 (or a portion thereof) and validated on November 2017 data, resulted in the following error measures: $MAE_{ARIMA}=1010.08$, $MAE_{UCM}=1183.40$ and $MAE_{ML}= 1184.07$, leading the ARIMA approach to be the most accurate in forecasting among those tested.
+
+<p align="center">
+<img src="images/Validation.png" width="100%" />
+<em>Forecasts for the validation set (November 2017) made with the best models for each class.</em>
+</p>
+
 ### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis)
