@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="portfolio">Portfolio</h1>
+<hr>
+<h2 id="deep-learning">Deep Learning</h2>
+<h3 id="video-classification-human-action-recognition-on-hmdb-51-dataset">Video Classification: Human Action Recognition on HMDB-51 dataset</h3>
+<p><a href="https://github.com/giocoal/hmdb51-two-stream-action-recognition"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+<b>Two-stream CNNs</b> for video action recognition using Stacked Optical Flow, implemented in Keras, on HMDB-51 dataset.
+<br> <br>
+We use spatial (<b>ResNet-50 finetuned</b>) and temporal stream cnn (stacked <b>Optical Flows</b>) under the <b>Keras</b> framework to perform <b>Video-Based Human Action Recognition</b> on <b>HMDB-51</b> dataset.
+</div>
+<br>
+<center><img src="images/HMDBcopertina.png"/></center>
+<br>
+<hr>
+<h3 id="cxr-acgan-auxiliary-classifier-gan-for-chest-x-ray-images-generation">CXR-ACGAN: Auxiliary Classifier GAN for Chest X-Ray Images Generation</h3>
+<p><a href="https://github.com/giocoal/CXR-ACGAN-chest-xray-generator-covid19-pneumonia"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+<b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
+<br> <br>
+The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to obtain a model for the <b>conditional synthesis</b> of chest radiographs of healthy patients, patients with COVID-19 and patients with non-COVID-19 pneumonia. Additionally, we used the trained GAN to perform <b>data augmentation on the unbalanced COVIDx dataset</b>, generatively balancing minority classes, and possibly improving the performance of some classifiers.
+</div>
+<br>
+<center><img src="images/CXR-ACGAN - Example.png"/></center>
+<br>
+<hr>
+<h3 id="alzheimerss-disease--healthy-brain-mri-images-classification-and-wgan-generation">Alzheimers's Disease / Healthy Brain MRI Images Classification and WGAN Generation</h3>
+<p><a href="https://github.com/giocoal/ADNI-brain-MRI-alzheimer-WGAN-generation-and-classification"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://www.slideshare.net/Giorgio469575/identification-of-alzheimers-disease-using-a-deep-learning-method-based-on-t1w-brain-mri-images"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+<b>Brain</b> T1-Weighted <b>MRI</b> Images <b>Classification</b> and <b>WGAN Generation</b> (<b>Alzheimer's</b> and Healthy patients) for the purpose of data augmentation. Implemented in TensorFlow, trained on ADNI dataset.
+<br> <br>
+This project focused on Alzheimer's Disease through three main objectives. Firstly, a dataset of axial 2D slices was created from 3D T1-weighted MRI brain images, integrating clinical, genetic, and biological sample data. Secondly, a <b>Custom Resnet-18</b> was trained to classify these images, distinguishing between healthy individuals and those with Alzheimer's. Lastly, different techniques for managing class imbalance were evaluated to improve the classifier's performance and reduce bias, including the training of a generative model (<b>Wasserstein GAN</b>) on Alzheimer's Disease and Healthy images for the purpose of generative data augmentation.
+</div>
+<br>
+<center><img src="images/WGAN_MRI_Example.png"/></center>
+<br>
+<hr>
+<h2 id="machine-learning">Machine Learning</h2>
+<h3 id="credit-card-transactions-fraud-detection-using-knime">Credit Card Transactions Fraud Detection using KNIME.</h3>
+<p><a href="https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://kni.me/w/c2_iSRBcc1v7b6pUn"><img src="https://img.shields.io/badge/KNIME-View on KNIME HUB-yellow?logo=Knime" alt="KNIME Hub Workflow"></a>
+<a href="https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection/blob/main/Project_Report.pdf"><img src="https://img.shields.io/badge/PDF-Project Report-red?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Project Report"></a></p>
+<div style="text-align: justify">
+The project consists in the application of <b>different classification models</b> to a dataset containing data relating to credit card transactions for the <b>detection of financial fraud</b>.
+<br> <br>
+One of the most critical processes in finance is the <b>detection of fraudulent credit card transactions</b>. It is possible to detect these frauds with different machine learning algorithms, but what is the most effective <b>classifier</b> to accomplish this task?
+<br>
+In the first part of the project, we compared different techniques to counter the presence of unbalanced classes within the dataset. Then we compared the performance of some of the most widely used classification algorithms in this area. To determine the best method, we did not limit ourselves to the usual metrics but also took into account the costs to the financial institution related to any errors the model may make, a key aspect in this area.
+</div>
+<br>
+<center><img src="images/MLKnime.png"/></center>
+<br>
+<hr>
+<h3 id="insbachelors-thesisins-%22cluster-analysis-on-the-results-of-molecular-simulation-of-the-water-adsorption-process-on-atmospheric-particulate-models%22-br-and-inspublished-paperins-%22theoretical-investigation-of-inorganic-particulate-matter-the-case-of-water-adsorption-on-a-nacl-particle-model-studied-using-grand-canonical-monte-carlo-simulations%22"><ins>Bachelor's Thesis</ins>: <em>&quot;Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models&quot;</em> <br> and <ins>Published Paper</ins>: <em>&quot;Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations&quot;</em></h3>
+<p><a href="https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/tree/main"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf"><img src="https://img.shields.io/badge/PDF-Read Thesis Paper-red?logo=adobe-acrobat-reader" alt="Open PDF"></a>
+<a href="https://www.mdpi.com/2304-6740/11/11/421"><img src="https://img.shields.io/badge/Paper DOI-10.3390/inorganics11110421-6b3048?logo=google-scholar" alt="Paper DOI"></a></p>
+<div style="text-align: justify">
+During a <b>research internship</b> at the <b>Computational Physical Chemistry Laboratory</b> at the <b>University of Milano-Bicocca</b> i took part in a research project concerning the study, by means of <b>Monte Carlo computational simulations</b> in the Grand Canonical ensemble, of the <b>adsorption</b> process of <b>water</b> on model <b>surfaces of sodium chloride</b> (NaCl) atmospheric particulate matter of marine origin. <br>
+My work involved performing a data analysis, and in particular a <b>cluster analysis</b> and <b>orientational analysis</b>, on the results of the 3-D molecular mechanics simulations, leveraging <b>unsupervised machine learning</b> (<b>DBSCAN</b>) for water <b>clusters detection</b>. <br>
+I developed a script in Python language (NumPy, pandas, scikit-learn), capable of performing an automated (frame-by-frame) <b>data analysis of the configurations</b> (atomic coordinates of water molecules) generated during each simulation, conducted at a specific H2O pressure value. <br>
+The results of the analysis provided a <b>molecular-level understanding</b> of the <b>aggregative phenomena</b> that characterise the adsorption process of water vapor on the NaCl surface. In particular, the script allows to: identify the number of clusters present in the system, classify them into 'islands' or 'layers' according to their shape and size, and study the orientation of water molecules moving away from the NaCl surface. <br>
+The results of my study are collected in my <b>Bachelor's thesis</b>: <a href="https://github.com/giocoal/cluster-analysis-on-computational-chemistry-simulations-water-adsorption-on-atmosperic-particulate/blob/main/thesis%20manuscript%20and%20presentation%20slides/Thesis.pdf">"Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models."</a> <br>
+Furthermore, during the course of the year 2023, I subsequently contributed, in the context of a voluntary collaboration with the corresponding authors' research groups, to the development of a <b>paper</b> entitled: <a href="https://www.mdpi.com/2304-6740/11/11/421">"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations."</a> (<a href="https://scholar.google.com/citations?user=yJfbN8AAAAAJ&hl=en&oi=sra">F. Rizza</a>, <a href="https://scholar.google.com/citations?user=F4g_VMYAAAAJ&hl=en&oi=sra">A. Rovaletti</a>, <a href="https://scholar.google.com/citations?user=C9pWqXAAAAAJ&hl=en&oi=sra">G. Carbone</a>, T. Miyake, <a href="url">C. Greco</a>, U. Cosentino), published on the international, peer-reviews and open access <a href="https://www.mdpi.com/journal/inorganics/about">Inorganics</a> journal by <a href="https://www.mdpi.com/">MDPI</a>. In particular, I was involved in the investigation, formal analysis and data curation phases. <br>
+</div>
+<br>
+<center><img src="images/ComputationalChemistry1.png"/></center>
+<br>
+<hr>
+<h2 id="natural-language-processing">Natural Language Processing</h2>
+<h3 id="word-embedding-word2vec-and-cade-the-evolution-of-t%C3%B3poi-in-the-italian-literary-tradition">Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition</h3>
+<p><a href="https://github.com/giocoal/word-embedding-italian-literature"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
+<br> <br>
+The <b>goals</b> of our project were: 
+<br>
+<b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
+<br>
+<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family, along with the CADE framework, in order to learn <b>word embeddings</b> from the generated and processed corpora 
+<br>
+<b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived tòpos</b>, chosen arbitrarily, to be able to answer some research questions
+</div>
+<br>
+<center><img src="images/DataSemanticsItalianLiterature.jpg"/></center>
+<br>
+<hr>
+<h3 id="extreme-text-summarization-and-topic-modeling-over-reddit-posts">Extreme Text Summarization and Topic Modeling over Reddit Posts</h3>
+<p><a href="https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://www.slideshare.net/Giorgio469575/extreme-extractive-text-summarization-and-topic-modeling-using-lsa-and-lda-techniques-over-reddit-posts"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+Extreme Extractive <b>Text Summarization</b> and <b>Topic Modeling</b> (using <b>LSA and LDA</b> techniques) over Reddit Posts from <b>TLDRHQ dataset</b>.
+<br> <br>
+TL;DR, which is an acronym for ”Too Long; Didn’t Read” and is an extremely short summary of the post’s content that is good practice for Reddit users to leave at the end of a post. A system, such as a bot, capable to automatically generate the TL;DR of a post could improve Reddit usability. This project develops a supervised extractive summarization model to obtain TL;DR-like summaries, and uses LSA and LDA techniques for topic modeling analysis to identify hidden topics in posts
+</div>
+<br>
+<center><img src="images/tldr.png"/></center>
+<br>
+<hr>
+<h2 id="time-series-and-streaming-data">Time Series and Streaming Data</h2>
+<h3 id="electricity-consumption-forecasting-using-arima-ucm-machine-learning-random-forest-and-k-nn-and-deep-learning-gru-recurrent-neural-network-models">Electricity Consumption Forecasting Using Arima, UCM, Machine Learning (Random Forest and k-NN), and Deep Learning (GRU Recurrent Neural Network) Models</h3>
+<p><a href="https://github.com/giocoal/analysis-and-forecasting-tetouan-city-power-consumption-ARIMA-UCM-GRU"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://github.com/giocoal/analysis-and-forecasting-tetouan-city-power-consumption-ARIMA-UCM-GRU/blob/main/report/Project_Report.pdf"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a>
+<a href="https://www.slideshare.net/Giorgio469575/electricity-consumption-forecasting-using-arima-ucm-machine-learning-and-deep-learning-models"><img src="https://img.shields.io/badge/PDF-View Slides PDF-red?logo=adobe-acrobat-reader" alt="Open Slides"></a></p>
+<p>The <b>forecasting</b> of <b>time series</b> of <b>electricity consumption</b> plays an important role in efficient resource management and strategic planning in the energy sector. In this project, we analyse a <b>univariate, homogeneous, high-frequency time series</b> of electricity consumption measured every 10 minutes from 01/01/2017 to 30/11/2017, comparing <b>statistical (ARIMA and UCM)</b>, <b>Machine Learning (Random Forest and k-NN)</b> and <b>Deep Learning (GRU Recurrent Neural Network)</b> approaches to model the time series and forecast consumption for the month of December 2017. The best performing of the models in each family, trained on data sampled between 01/01/2017 to 31/10/2017 (or a portion thereof) and validated on November 2017 data, resulted in the following error measures: MAE(ARIMA)=1010.08, MAE(UCM)=1183.40 and MAE(ML)= 1184.07, leading the ARIMA approach to be the most accurate in forecasting among those tested.</p>
+<p align="center">
+<img src="images/Validation.png" width="100%" />
+<em>Forecasts for the validation set (November 2017) made with the best models for each class.</em>
+</p>
+<h3 id="restaurants-revenue-loss-during-first-covid-19-pandemic-lockdown">Restaurant's Revenue Loss during first COVID-19 pandemic lockdown</h3>
+<p><a href="https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis/blob/main/Project%20Report.pdf"><img src="https://img.shields.io/badge/PDF-View Report PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+<b> Time Series </b> Analysis and <b> Forecasting </b> (using <b> ARIMA </b>, <b> UCM </b> and <b> Random Forest </b> models) of a <b> restaurant's revenue </b> during the first lockdown of the COVID-19 pandemic in Italy, to estimate the loss incurred..
+<br> <br>
+In this project we analyze the sales performance of six restaurants in Lombardy and Emilia-Romagna from 2018 to 2022. The study aims to identify patterns in the time series, estimate losses during the COVID-19 pandemic, and predict future restaurant trends, uses different models, including ARIMA and SARIMA, UCM, and Random Forest.
+</div>
+<br>
+<center><img src="images/data-lab.png"/></center>
+<br>
+<hr>
+<h2 id="data-visualization">Data Visualization</h2>
+<h3 id="air-quality-evolution-in-the-milan-agglomeration-data-analysis--interactive-visualization">Air Quality Evolution in the Milan agglomeration: Data Analysis &amp; Interactive Visualization</h3>
+<p><a href="https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href="https://public.tableau.com/app/profile/giorgio.carbone3907/viz/IndicediQualitdellAriaIQAnellagglomeratodiMilanoanalisidellandamentostagionaleeannualeCarboneCavallaroMarconziniScuri/Dashboard_HOME"><img src="https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau" alt="View on Tableau"></a>
+<a href="https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/blob/main/Report/CarboneCavallaroMarconziniScuri.pdf"><img src="https://img.shields.io/badge/PDF-Read Thesis Paper-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">Has <b>air quality</b> improved over the past 15 years in and around <b>Milan</b>? Is the concentration of pollutants higher in winter or summer? and why? What are the main pollutants, and what meteorological and anthropogenic factors influence the seasonal pattern of their concentrations?
+<br>
+We tried to answer these, and other, questions by analyzing data from ARPA Lombardy. The results of our analysis were then displayed in an <b>interactive infographic</b> created using the <b>Tableau</b> platform.
+</div>
+<br>
+<center><img src="images/ARPAVIZ.gif"/></center>
+<br>
+<hr>
+<h3 id="infographics-prom-score-and-the-possible-relationship-with-weather-conditions">Infographics: PROM score and the possible relationship with weather conditions</h3>
+<p><a href="https://github.com/giocoal/Matplotlib_DataViz_SF12_PROMs_Score_"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a></p>
+<div style="text-align: justify">
+<b>PROMs are patient-reported outcome</b> measures following an operation or health treatment, often used to assess the quality of health care.
+<br>
+We evaluated, through some <b>infographics</b> made through Python, using the <b>matplotlib</b> and <b>Seaborn</b> libraries, the possible presence of a <b>relationship</b> between the <b>outcomes of mental and physical health status assessments</b> of a sample of patients, following surgery, and the <b>weather conditions</b> (light, humidity and temperature) relative to the time of questionnaire completion.
+</div>
+<br>
+<center><img src="images/compitino_primaviz - Copy - Copya.png"/></center>
+<br>
+<hr>
+<h2 id="data-management">Data Management</h2>
+<h3 id="data-acquisition-and-modeling-competitive-pok%C3%A9mon-graph-database">Data Acquisition and Modeling: Competitive Pokémon Graph Database</h3>
+<p><a href="https://github.com/giocoal/Competitive-Pokemon-Graph-Database"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub"></a>
+<a href=""><img src="https://img.shields.io/badge/Neo4J-View_on_Neo4J-lightgrey?logo=Neo4j" alt="View on Neo4j"></a>
+<a href="https://www.kaggle.com/datasets/giorgiocarbone/complete-competitive-pokmon-datasets-may-2022"><img src="https://img.shields.io/badge/Kaggle-View_on_Kaggle-blue?logo=Kaggle" alt="View on Kaggle"></a>
+<a href="https://github.com/giocoal/Competitive-Pokemon-Graph-Database/blob/main/Project%20Report.pdf"><img src="https://img.shields.io/badge/PDF-Read  Report  PDF-red?logo=adobe-acrobat-reader" alt="Open PDF"></a></p>
+<div style="text-align: justify">
+Data Acquisition and Modeling: <b>Graph database</b> containing information related to <b>competitive Pokémon videogames</b>, <b>scraped</b> from various sources
+<br> <br>
+The idea behind the project is to create a <b>graph database</b> containing information related to the <b>competitive Pokémon videogame</b>, with particular reference to the Video Game Championship Series 12 rules, the official format in effect for official tournaments and events during the period February - August 2022 and valid for the Pokémon World Championship in London in August 2022. The goal is to obtain a useful <b>tool as a support for competitive play</b>, both for novice and experienced players. The different <b>Pokémon are placed in relation to the teammates, moves, tools and the basic statistics with which they are most frequently matched</b> within teams in competitive matches. For this reason, the choice on the type of database to be implemented fell on a graph database, implemented through <b>Neo4J</b>. The choice of the graph database allowed us to take advantage of its characteristic of being schema less, which allows us to create nodes, to model the different entities, and arcs, to model the various relationships, without following a predefined schema. The database was populated through data obtained through <b>API</b> and <b>Web Scraping</b>, appropriately integrated and processed.
+</div>
+<br>
+<center><img src="images/PokemonCopertina1.png"/></center>
+<br>
+<center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
+</body>
+</html>
