@@ -4,10 +4,11 @@
 ## Deep Learning
 
 ### Video Classification: Human Action Recognition on HMDB-51 dataset
-_Python_
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/hmdb51-two-stream-action-recognition)
 [![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
+
+_Python_
 
 <div style="text-align: justify">
 <b>Two-stream CNNs</b> for video action recognition using Stacked Optical Flows, implemented in <b>Keras</b>, on HMDB-51 dataset.
