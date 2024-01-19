@@ -3,17 +3,17 @@
 
 ## Deep Learning
 
-### Video Classification: Human Action Recognition on HMDB-51 dataset
+### Video Classification: Human Action Recognition on HMDB-51 Dataset
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/hmdb51-two-stream-action-recognition)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/hmdb51-two-stream-action-recognition/blob/main/Report/Deep%20Learning%20-%20Video%20Action%20Recognition.pdf)
 
-_Key Skills: Python (Keras, OpenCV), Two-stream CNNs, Human Video Action Recognition,Image Processing_
+_Key Skills: Python (Keras, OpenCV), Two-stream CNNs, Human Video Action Recognition, Image Processing_
 
 <div style="text-align: justify">
-<b>Two-stream CNNs</b> for video action recognition using Stacked Optical Flows, implemented in <b>Keras</b>, on HMDB-51 dataset.
-<br> <br>
-We use spatial (<b>finetuned ResNet-50</b>) and temporal stream CNN (stacked <b>Optical Flows</b>) under the <b>Keras</b> framework to perform <b>Video-Based Human Action Recognition</b> on <b>HMDB-51</b> dataset.
+<b>Two-stream CNNs</b> for <b>video action recognition</b> using Stacked Optical Flows, implemented in <b>Keras</b>, on HMDB-51 dataset.
+<br> 
+We used an atchitecture based on two indipendent recognition streams (spatial and temporal), which are then combined by late fusion. Both the spatial and temporal streams consist of Convolutional Neural Networks (CNNs), the former based on a <b>finetuned ResNet-50</b> and the latter on a CNN which takes stacked <b>Optical Flows</b> as input.
 </div>
 <br>
 <center><img src="images/HMDBcopertina.png"/></center>
@@ -23,9 +23,9 @@ We use spatial (<b>finetuned ResNet-50</b>) and temporal stream CNN (stacked <b>
 ### CXR-ACGAN: Auxiliary Classifier GAN for Chest X-Ray Images Generation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/CXR-ACGAN-chest-xray-generator-covid19-pneumonia)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
 
-_Key Skills: Python (Keras, OpenCV), Image Generation, Medical Imaging, AC-GAN, Data Augmentation_
+_Key Skills: Python (TensorFlow, Keras, OpenCV), Image Generation, Medical Imaging, AC-GAN, Data Augmentation_
 
 <div style="text-align: justify">
 <b>CXR-ACGAN</b>: Auxiliary Classifier GAN (AC-GAN) for <b>Chest X-Ray</b> (CXR) Images Generation (<b>Pneumonia, COVID-19 and healthy</b> patients) for the purpose of <b>data augmentation</b>. Implemented in TensorFlow, trained on COVIDx CXR-3 dataset.
@@ -40,14 +40,14 @@ The main objective was to train an <b>Auxiliary Classifier GAN</b> (AC-GAN) to o
 ### Alzheimers's Disease / Healthy Brain MRI Images Classification and WGAN Generation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/ADNI-brain-MRI-alzheimer-WGAN-generation-and-classification)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/identification-of-alzheimers-disease-using-a-deep-learning-method-based-on-t1w-brain-mri-images)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/identification-of-alzheimers-disease-using-a-deep-learning-method-based-on-t1w-brain-mri-images)
 
 _Key Skills: Python (Keras, OpenCV), Image Generation, Medical Imaging, Wasserstein GAN, Data Augmentation, Image Classification_
 
 <div style="text-align: justify">
 <b>Brain</b> T1-Weighted <b>MRI</b> Images <b>Classification</b> and <b>WGAN Generation</b> (<b>Alzheimer's</b> and Healthy patients) for the purpose of data augmentation. Implemented in TensorFlow, trained on ADNI dataset.
 <br> <br>
-This project focused on Alzheimer's Disease through three main objectives. Firstly, a dataset of axial 2D slices was created from 3D T1-weighted MRI brain images, integrating clinical, genetic, and biological sample data. Secondly, a <b>Custom Resnet-18</b> was trained to classify these images, distinguishing between healthy individuals and those with Alzheimer's. Lastly, different techniques for managing class imbalance were evaluated to improve the classifier's performance and reduce bias, including the training of a generative model (<b>Wasserstein GAN</b>) on Alzheimer's Disease and Healthy images for the purpose of generative data augmentation.
+This project focused on Alzheimer's Disease through three main objectives. Firstly, a dataset of axial 2D slices was created from 3D T1-weighted MRI brain images, integrating clinical, genetic, and biological sample data. Secondly, a <b>Custom Resnet-18</b> was trained to <b>classify</b> these images, distinguishing between healthy individuals and those with Alzheimer's. Lastly, different techniques for managing <b>class imbalance</b> were evaluated to improve the classifier's performance and reduce bias, including the training of a generative model (<b>Wasserstein GAN</b>) on Alzheimer's Disease and Healthy images for the purpose of <b>generative data augmentation</b>.
 </div>
 <br>
 <center><img src="images/WGAN_MRI_Example.png"/></center>
@@ -56,20 +56,19 @@ This project focused on Alzheimer's Disease through three main objectives. First
 ---
 ## Machine Learning
 
-### Credit Card Transactions Fraud Detection using KNIME.
+### Credit Card Transactions Fraud Detection Using KNIME.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection)
 [![KNIME Hub Workflow](https://img.shields.io/badge/KNIME-View%20on%20KNIME%20HUB-yellow?logo=Knime)](https://kni.me/w/c2_iSRBcc1v7b6pUn)
-[![Project Report](https://img.shields.io/badge/PDF-Project%20Report-red?logo=adobe-acrobat-reader&logoColor=white)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection/blob/main/Project_Report.pdf)
+[![Project Report](https://img.shields.io/badge/PDF-Read%20Report%20PDF-red?logo=adobe-acrobat-reader&logoColor=white)](https://github.com/giocoal/Knime_Classification_Credit-Card-Fraud-Decection/blob/main/Project_Report.pdf)
 
 _Key Skills: KNIME, Classification, Fraud Detection, Random Forest, Support Vector Machine, Naive Bayes, Logistic Regression_
 
 <div style="text-align: justify">
-The project consists in the application of <b>different classification models</b> to a dataset containing data relating to credit card transactions for the <b>detection of financial fraud</b>.
+The project consists in the application of <b>different classification models</b> to a dataset containing data relating to <b>credit card transactions</b> for the <b>detection of financial fraud</b>.
 <br> <br>
-One of the most critical processes in finance is the <b>detection of fraudulent credit card transactions</b>. It is possible to detect these frauds with different machine learning algorithms, but what is the most effective <b>classifier</b> to accomplish this task?
-<br>
-In the first part of the project, we compared different techniques to counter the presence of unbalanced classes within the dataset. Then we compared the performance of some of the most widely used classification algorithms in this area. To determine the best method, we did not limit ourselves to the usual metrics but also took into account the costs to the financial institution related to any errors the model may make, a key aspect in this area.
+One of the most critical processes in finance is the <b>detection of fraudulent credit card transactions</b>. 
+In the first part of the project, we compared different techniques to counter the presence of <b>unbalanced classes</b> within the dataset. Then we <b>compared the performance</b> of some of the most widely used <b>classification algorithms</b> in this area. To determine the best method, we did not limit ourselves to the usual metrics but also took into account the costs to the financial institution related to any errors the model may make, a key aspect in this area.
 </div>
 <br>
 <center><img src="images/MLKnime.png"/></center>
@@ -78,9 +77,11 @@ In the first part of the project, we compared different techniques to counter th
 ---
 ### <ins>Bachelor's Thesis</ins>: *"Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models"* <br> and <ins>Published Paper</ins>: *"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations"*
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/tree/main)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf)
 [![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.3390/inorganics11110421-6b3048?logo=google-scholar)](https://www.mdpi.com/2304-6740/11/11/421)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/tree/main)
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/blob/main/thesis%20manuscript%20and%20presentation%20slides/Thesis_Presentation.pdf)
+
 
 _Key Skills: Python (scikit-learn, scipy, matplotlib), Grand Canonical Monte Carlo Simulations, Clustering, DBSCAN_
 
@@ -100,23 +101,23 @@ Furthermore, during the course of the year 2023, I subsequently contributed, in 
 ---
 ## Natural Language Processing
 
-### Word Embedding (Word2Vec and CADE): the evolution of tópoi in the Italian literary tradition
+### Word Embedding (Word2Vec and CADE): the Evolution of Tópoi in the Italian Literary Tradition
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/word-embedding-italian-literature)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/word-embedding-italian-literature/blob/main/Project%20Report%20EN.pdf)
 
-_Key Skills: Python (gensim, spaCy, NLTK, Word2Vec), distibuctional semantics, literary corpuses_
+_Key Skills: Python (gensim, spaCy, NLTK, Word2Vec), Distibuctional Semantics, Literary Corpuses_
 
 <div style="text-align: justify">
 Using <b>distibuctional semantics</b> (<b>word2vec</b> family algorithms and the <b>CADE</b> framework) to learn <b>word embeddings</b> from the <b>Italian</b> literary corpuses we generated.
 <br> <br>
 The <b>goals</b> of our project were: 
 <br>
-<b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources 
+<b>1.</b> to <b>obtain corpora</b> that were consistent with our research questions from a collection of texts obtained from two main sources; 
 <br>
-<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family, along with the CADE framework, in order to learn <b>word embeddings</b> from the generated and processed corpora 
+<b>2.</b> to use distibutional semantics, and in particular algorithms from the word2vec family, along with the CADE framework, in order to learn <b>word embeddings</b> from the generated and processed corpora;
 <br>
-<b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived tòpos</b>, chosen arbitrarily, to be able to answer some research questions
+<b>3.</b> and finally to <b>analyze</b> some particularly <b>long-lived tòpos</b>, chosen arbitrarily, to be able to answer some research questions.
 </div>
 <br>
 <center><img src="images/DataSemanticsItalianLiterature.jpg"/></center>
@@ -126,12 +127,13 @@ The <b>goals</b> of our project were:
 ### Extreme Text Summarization and Topic Modeling over Reddit Posts
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/extreme-extractive-text-summarization-and-topic-modeling-using-lsa-and-lda-techniques-over-reddit-posts)
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/main/Paper/Paper%20-%20Text%20Summarization%20and%20Topic%20Modeling%20over%20Reddit%20Posts.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/Giorgio469575/extreme-extractive-text-summarization-and-topic-modeling-using-lsa-and-lda-techniques-over-reddit-posts)
 
 _Key Skills: Python (gensim, spaCy, NLTK), Text Summarization, Topic Modeling, Latent Dirichlet Allocation, Latend Semantic Analysis_
 
 <div style="text-align: justify">
-Extreme Extractive <b>Text Summarization</b> and <b>Topic Modeling</b> (using <b>LSA and LDA</b> techniques) over Reddit Posts from <b>TLDRHQ dataset</b>.
+<b>Extreme Extractive Text Summarization</b> and <b>Topic Modeling</b> (using <b>LSA and LDA</b> techniques) over Reddit Posts from <b>TLDRHQ dataset</b>.
 <br> <br>
 TL;DR, which is an acronym for ”Too Long; Didn’t Read” and is an extremely short summary of the post’s content that is good practice for Reddit users to leave at the end of a post. A system, such as a bot, capable to automatically generate the TL;DR of a post could improve Reddit usability. This project develops a supervised extractive summarization model to obtain TL;DR-like summaries, and uses LSA and LDA techniques for topic modeling analysis to identify hidden topics in posts
 </div>
@@ -157,7 +159,7 @@ The <b>forecasting</b> of <b>time series</b> of <b>electricity consumption</b> p
 <em>Forecasts for the validation set (November 2017) made with the best models for each class.</em>
 </p>
 
-### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown
+### Restaurant's Revenue Loss During First COVID-19 Pandemic Lockdown
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis)
 [![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/restaurant-revenue-loss-COVID-retrospective-analysis/blob/main/Project%20Report.pdf)
@@ -176,11 +178,11 @@ In this project we analyze the sales performance of six restaurants in Lombardy 
 ---
 ## Data Visualization
 
-### Air Quality Evolution in the Milan agglomeration: Data Analysis & Interactive Visualization
+### Air Quality Evolution in the Milan Agglomeration: Data Analysis and Interactive Visualization
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau)
 [![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://public.tableau.com/app/profile/giorgio.carbone3907/viz/IndicediQualitdellAriaIQAnellagglomeratodiMilanoanalisidellandamentostagionaleeannualeCarboneCavallaroMarconziniScuri/Dashboard_HOME)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/blob/main/Report/CarboneCavallaroMarconziniScuri.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/blob/main/Report/CarboneCavallaroMarconziniScuri.pdf)
 
 _Key Skills: Tableau, Interactive Visualization, Air Quality Data Analysis_
 
@@ -193,7 +195,7 @@ We tried to answer these, and other, questions by analyzing data from ARPA Lomba
 <br>
 
 ---
-### Infographics: PROM score and the possible relationship with weather conditions
+### Infographics: PROM Score and the Possible Relationship with Weather Conditions
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Matplotlib_DataViz_SF12_PROMs_Score_)
 
@@ -217,6 +219,7 @@ We evaluated, through some <b>infographics</b> made through Python, using the <b
 [![View on Neo4j](https://img.shields.io/badge/Neo4J-View_on_Neo4J-lightgrey?logo=Neo4j)]()
 [![View on Kaggle](https://img.shields.io/badge/Kaggle-View_on_Kaggle-blue?logo=Kaggle)](https://www.kaggle.com/datasets/giorgiocarbone/complete-competitive-pokmon-datasets-may-2022)
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20%20Report%20%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Competitive-Pokemon-Graph-Database/blob/main/Project%20Report.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20%20Slides%20%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/competitive-pokemon-graph-database/blob/main/Project%20Slides.pdf)
 
 _Key Skills: Python (Beautiful Soup, Scrapy, Selenium, Request), Neo4j, Data Acquisition, API, Web Scraping, Data Integration, Data Modeling, Graph Database_
 
@@ -226,7 +229,7 @@ Data Acquisition and Modeling: <b>Graph database</b> containing information rela
 The idea behind the project is to create a <b>graph database</b> containing information related to the <b>competitive Pokémon videogame</b>, with particular reference to the Video Game Championship Series 12 rules, the official format in effect for official tournaments and events during the period February - August 2022 and valid for the Pokémon World Championship in London in August 2022. The goal is to obtain a useful <b>tool as a support for competitive play</b>, both for novice and experienced players. The different <b>Pokémon are placed in relation to the teammates, moves, tools and the basic statistics with which they are most frequently matched</b> within teams in competitive matches. For this reason, the choice on the type of database to be implemented fell on a graph database, implemented through <b>Neo4J</b>. The choice of the graph database allowed us to take advantage of its characteristic of being schema less, which allows us to create nodes, to model the different entities, and arcs, to model the various relationships, without following a predefined schema. The database was populated through data obtained through <b>API</b> and <b>Web Scraping</b>, appropriately integrated and processed.
 </div>
 <br>
-<center><img src="images/PokemonCopertina1.png"/></center>
+<center><img src="images/DataManagementProject.jpg"/></center>
 <br>
 
 <center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
