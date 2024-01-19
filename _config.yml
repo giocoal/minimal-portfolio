@@ -18,10 +18,10 @@ description:
   
   <p align="justify">
   I am an aspiring <b>data scientist</b> who enjoys connecting the dots by the use of technology. 
-  <br><br>
-  I am pursing <b>Master's Degree in Data Science at University of Milano-Bicocca</b>, where I’m receiving solid training in all the major fields of Data Science, like Statistics, Computer Science, Data Engineering, Machine Learning and more.
-  <br><br>
-  My hard science education (<b>Bachelor's Degree in Chemical Sciences and Technologies</b>), has allowed me to develop strong analytical, mathematical and statistical skills, which have proven useful in my current career path.
+  <br>
+  I am pursing <b>Master's Degree in Data Science at University of Milano-Bicocca</b>, where I’m receiving solid training in all the major fields of Data Science.
+  <br>
+  I have a hard science education, having achieved a (<b>Bachelor's Degree in Chemical Sciences and Technologies</b>).
   <br><br>
   I consider myself a kind, empathetic, creative and determined person. I am pragmatic and organized, yet flexible.
   <br><br>
@@ -33,4 +33,15 @@ google_analytics: UA-145578661-1 # Google Analytics tracking ID
 # I am particularly drawn to digital signal and image processing and analysis, as well as the latest ML topics, such as Computer Vision, NLP and Generative Models.
 #and in particular earning a bachelor's degree in Chemical Sciences and Technologies at University of Milano-Bicocca, which program included courses in mathematics, physics and chemistry (inorganic, organic, physical and analytical), 
 #Although I have an interest in the discipline of data science in its entirety,
+
+#<p align="justify">
+#I am an aspiring <b>data scientist</b> who enjoys connecting the dots by the use of technology. 
+#<br><br>
+#I am pursing <b>Master's Degree in Data Science at University of Milano-Bicocca</b>, where I’m receiving solid training in all the major fields of Data Science, like Statistics, Computer Science, Data Engineering, Machine Learning and more.
+#<br><br>
+#My hard science education (<b>Bachelor's Degree in Chemical Sciences and Technologies</b>), has allowed me to develop strong analytical, mathematical and statistical skills, which have proven useful in my current career path.
+#<br><br>
+#I consider myself a kind, empathetic, creative and determined person. I am pragmatic and organized, yet flexible.
+#<br><br>
+#</p>
 
