@@ -232,4 +232,4 @@ The idea behind the project is to create a <b>graph database</b> containing info
 <center><img src="images/DataManagementProject.jpg"/></center>
 <br>
 
-<center>© 2022 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
+<center>© 2023 Carbone Giorgio. Powered by Jekyll and the Minimal Theme.</center>
