@@ -3,6 +3,28 @@
 
 ## Deep Learning
 
+### <ins>Master's Thesis</ins>: *"Deep Neural Encoding Models of the Human Visual Cortex to Predict fMRI Responses to Natural Visual Scenes"* <br>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/algonauts2023-image-fMRI-encoding-model)
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://drive.google.com/file/d/1hf3gs0VAdlfDIobfEtqeOhS8HHD0UfpI/view?usp=sharing)
+[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://www.slideshare.net/slideshow/masters-thesis-data-science-presentation/266926165)
+
+
+_Key Skills: Python (PyTorch, scikit-learn), Visual Encoding Model, Image-fMRI Encoding, Computational Neuroscience, Artificial Vision_
+
+<div style="text-align: justify">
+During a <b>research internship</b> at the <b>Imaging and Vision Laboratory</b> at the <b>University of Milano-Bicocca</b> I worked on my <b>master's thesis</b> “Deep Neural Encoding Models of the Human Visual Cortex to Predict fMRI Responses to Natural Visual Scenes”, which I developed by competing in the "<b>Algonauts Project 2023 Challenge</b>: How the
+Human Brain Makes Sense of Natural Scenes", exploring the interdisciplinary research related to one of the unsolved problems in both neuroscience and artificial intelligence: the ability to perceive and understand complex natural scenes.
+<br>
+The main objective of the thesis was to develop a comprehensive <b>voxel-based and subject-specific image-fMRI neural encoding model of the human visual cortex based on Deep Neural Networks (DNNs) and transfer learning</b> for the prediction of local neural blood oxygen level-dependent (BOLD) functional magnetic resonance imaging (fMRI) responses to complex visual stimuli.
+The results of my study are collected in my <b>Master's thesis</b>: <a href="https://drive.google.com/file/d/1hf3gs0VAdlfDIobfEtqeOhS8HHD0UfpI/view?usp=sharing">“Deep Neural Encoding Models of the Human Visual Cortex to Predict fMRI Responses to Natural Visual Scenes”</a> <br>
+
+</div>
+<br>
+<center><img src="images/visualencoding.png"/></center>
+<br>
+
+---
 ### Video Classification: Human Action Recognition on HMDB-51 Dataset
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/hmdb51-two-stream-action-recognition)
