@@ -12,7 +12,6 @@ _Key Skills: Python (PyTorch, scikit-learn), Generative Modeling, Reinforcement 
 <div style="text-align: justify">
 <b>ITForge</b> is an <b>end-to-end</b>, <b>AI-driven pipeline</b> developed to support hit-to-lead workflows through <b>generative fragment growing</b>. ITForge integrates and optimizes multiple open-source frameworks to address significant <b>Structure-Based De Novo Drug Design</b> limitations. The pipeline combines a generative workflow based on the <b>scaffold decoration</b> model <b>LibINVENT</b>, <b>pre-trained on the ChEMBL</b> database and optimized via <b>Reinforcement Learning (RL)</b>, with a comprehensive post-processing module designed to <b>progressively filter and rank compounds</b> using increasingly accurate scoring stages. <br>
 ITForge provides a flexible, scalable, and open-source solution for AI-driven drug design, integrating generative modeling, multi-objective optimization, and rigorous post-processing to prioritize high-quality candidate molecules for experimental validation. <br>
-The pipeline of ITForge is described in a <b>poster contribution</b>: <a href="https://drive.google.com/file/d/1hf3gs0VAdlfDIobfEtqeOhS8HHD0UfpI/view?usp=sharing">“Deep Neural Encoding Models of the Human Visual Cortex to Predict fMRI Responses to Natural Visual Scenes”</a> <br>
 
 </div>
 <br>
