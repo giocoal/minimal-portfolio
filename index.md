@@ -1,6 +1,26 @@
 # Portfolio
 ---
 
+## Deep Generative Modeling for Drug Discovery
+
+### ITForge: A Generative AI-Driven Drug Discovery Pipeline for Structure-Based De Novo Drug Design and Molecular Ranking with Open-Source Frameworks
+
+[![Poster DOI](https://img.shields.io/badge/Poster%20DOI-10.5281/zenodo.15880301-6b3048?logo=google-scholar)](https://zenodo.org/records/15880301)
+
+_Key Skills: Python (PyTorch, scikit-learn), Generative Modeling, Reinforcement Learning, Computational Chemistry, Computer-Aided Drug Design, Molecular Docking, Vector Databases_
+
+<div style="text-align: justify">
+<b>ITForge</b> is an <b>end-to-end</b>, <b>AI-driven pipeline</b> developed to support hit-to-lead workflows through <b>generative fragment growing</b>. ITForge integrates and optimizes multiple open-source frameworks to address significant <b>Structure-Based De Novo Drug Design</b> limitations. The pipeline combines a generative workflow based on the <b>scaffold decoration</b> model <b>LibINVENT</b>, <b>pre-trained on the ChEMBL</b> database and optimized via <b>Reinforcement Learning (RL)</b>, with a comprehensive post-processing module designed to <b>progressively filter and rank compounds</b> using increasingly accurate scoring stages. <br>
+The generative chemistry process starts from a promising <b>SMILES</b> input fragment with defined growing points. <b>RL</b> guides the molecule generation toward <b>high-scoring regions of chemical space</b> based on a custom multi-objective function incorporating docking scores, an empirical synthetic accessibility score, and physico-chemical and structural properties related to drug-likeness and flexibility. <br> 
+Generated molecules are subsequently ranked by progressively accurate filtering and scoring methods, including: docking pose-template RMSD filtering, DL-based synthetic feasibility assessment, commercial building block search in an in-house database, ADME-Tox property prediction, refined docking scores, and binding free energy estimation. <br>
+ITForge provides a flexible, scalable, and open-source solution for AI-driven drug design, integrating generative modeling, multi-objective optimization, and rigorous post-processing to prioritize high-quality candidate molecules for experimental validation. <br>
+The pipeline of ITForge is described in a <b>poster contribution</b>: <a href="https://drive.google.com/file/d/1hf3gs0VAdlfDIobfEtqeOhS8HHD0UfpI/view?usp=sharing">“Deep Neural Encoding Models of the Human Visual Cortex to Predict fMRI Responses to Natural Visual Scenes”</a> <br>
+
+</div>
+<br>
+<center><img src="images/A0_MLSS_2025_Poster_Research_Project_Carbone_Giorgio-1.png"/></center>
+<br>
+
 ## Deep Learning
 
 ### <ins>Master's Thesis</ins>: *"Deep Neural Encoding Models of the Human Visual Cortex to Predict fMRI Responses to Natural Visual Scenes"* <br>
@@ -100,6 +120,7 @@ In the first part of the project, we compared different techniques to counter th
 ### <ins>Bachelor's Thesis</ins>: *"Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models"* <br> and <ins>Published Paper</ins>: *"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations"*
 
 [![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.3390/inorganics11110421-6b3048?logo=google-scholar)](https://www.mdpi.com/2304-6740/11/11/421)
+[![Poster DOI](https://img.shields.io/badge/Poster%20DOI-10.5281/zenodo.15850234-6b3048?logo=google-scholar)](https://zenodo.org/records/15850234)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/tree/main)
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Cluster_analysis_Visualization_Computational_Chemistry/blob/223159ee1cbed45facdad444b1adbd9a03d60282/Tesi%20e%20presentazione/CarboneGiorgio_Tesi.pdf)
 [![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/cluster-analysis-on-monte-carlo-simulations-of-water-adsorption-on-NaCl-atmospheric-particulate/blob/main/thesis%20manuscript%20and%20presentation%20slides/Thesis_Presentation.pdf)
@@ -113,7 +134,7 @@ My work involved performing a data analysis, and in particular a <b>cluster anal
 I developed a script in Python language (NumPy, pandas, scikit-learn), capable of performing an automated (frame-by-frame) <b>data analysis of the configurations</b> (atomic coordinates of water molecules) generated during each simulation, conducted at a specific H2O pressure value. <br>
 The results of the analysis provided a <b>molecular-level understanding</b> of the <b>aggregative phenomena</b> that characterise the adsorption process of water vapor on the NaCl surface. In particular, the script allows to: identify the number of clusters present in the system, classify them into 'islands' or 'layers' according to their shape and size, and study the orientation of water molecules moving away from the NaCl surface. <br>
 The results of my study are collected in my <b>Bachelor's thesis</b>: <a href="https://github.com/giocoal/cluster-analysis-on-computational-chemistry-simulations-water-adsorption-on-atmosperic-particulate/blob/main/thesis%20manuscript%20and%20presentation%20slides/Thesis.pdf">"Cluster Analysis on the Results of Molecular Simulation of the Water Adsorption Process on Atmospheric Particulate Models."</a> <br>
-Furthermore, during the course of the year 2023, I subsequently contributed, in the context of a voluntary collaboration with the corresponding authors' research groups, to the development of a <b>paper</b> entitled: <a href="https://www.mdpi.com/2304-6740/11/11/421">"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations."</a> (<a href="https://scholar.google.com/citations?user=yJfbN8AAAAAJ&hl=en&oi=sra">F. Rizza</a>, <a href="https://scholar.google.com/citations?user=F4g_VMYAAAAJ&hl=en&oi=sra">A. Rovaletti</a>, <a href="https://scholar.google.com/citations?user=C9pWqXAAAAAJ&hl=en&oi=sra">G. Carbone</a>, T. Miyake, <a href="url">C. Greco</a>, U. Cosentino), published on the international, peer-reviews and open access <a href="https://www.mdpi.com/journal/inorganics/about">Inorganics</a> journal by <a href="https://www.mdpi.com/">MDPI</a>. In particular, I was involved in the investigation, formal analysis and data curation phases. <br>
+Furthermore, during the course of the year 2023, I subsequently contributed, in the context of a voluntary collaboration with the corresponding authors' research groups, to the development of a <b>paper</b> entitled: <a href="https://www.mdpi.com/2304-6740/11/11/421">"Theoretical Investigation of Inorganic Particulate Matter: The Case of Water Adsorption on a NaCl Particle Model Studied Using Grand Canonical Monte Carlo Simulations."</a> (<a href="https://scholar.google.com/citations?user=yJfbN8AAAAAJ&hl=en&oi=sra">F. Rizza</a>, <a href="https://scholar.google.com/citations?user=F4g_VMYAAAAJ&hl=en&oi=sra">A. Rovaletti</a>, <a href="https://scholar.google.com/citations?user=C9pWqXAAAAAJ&hl=en&oi=sra">G. Carbone</a>, T. Miyake, <a href="url">C. Greco</a>, U. Cosentino), published on the international, peer-reviews and open access <a href="https://www.mdpi.com/journal/inorganics/about">Inorganics</a> journal by <a href="https://www.mdpi.com/">MDPI</a>, and a <b>poster contribution</b> presented at the <a href="https://sci2024.org/">XXVIII National Congress of Società Chimica Italiana (SCI2024)</a>. In particular, I was involved in the investigation, formal analysis and data curation phases. <br>
 
 </div>
 <br>
